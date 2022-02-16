@@ -12,9 +12,9 @@ using std::cout;
 using std::endl;
 
 bool change_data(Data*);
-bool fill_data_array(Data*, int);
-void display_data_array(Data*, int);
-//bool fill_data_array(Data**, int, int);
-//void display_data_array(Data**, int, int);
+//bool fill_data_array(Data*, int);
+//void display_data_array(Data*, int);
+bool fill_data_array(Data**, int, int);
+void display_data_array(Data**, int, int);
 
 #endif /* DEMO_FUNCTIONS_H */
