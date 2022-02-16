@@ -110,20 +110,20 @@ int main() {
      * create a 2D array of Data Structs Dynamiclly
      ***********************************************/
     // make a pointer to a pointer to an int
-//    Data **myDataArray;
-//    // allocate the rows
-//    myDataArray = new Data*[ROWS];
-//    //myDataArray = new Data*[ROWS];
-//    // allocate the columns
-//    for (int i = 0; i < ROWS; i++) {
-//        myDataArray[i] = new Data[COLS];
-//    }
+    Data **myDataArray;
+    // allocate the rows
+    myDataArray = new Data*[ROWS];
+    //myDataArray = new Data*[ROWS];
+    // allocate the columns
+    for (int i = 0; i < ROWS; i++) {
+        myDataArray[i] = new Data[COLS];
+    }
 
-//    // pass the array by reference and let the function fill it with data
-//    fill_data_array(myDataArray, ROWS, COLS);
-//
-//    // pass it to a display function to prove it
-//    display_data_array(myDataArray, ROWS, COLS);
+    // pass the array by reference and let the function fill it with data
+    fill_data_array(myDataArray, ROWS, COLS);
+
+    // pass it to a display function to prove it
+    display_data_array(myDataArray, ROWS, COLS);
 
     return 0;
 }
