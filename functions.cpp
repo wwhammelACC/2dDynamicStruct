@@ -33,7 +33,7 @@ bool change_data(Data *data_struct){
 //}
 
 // 2d array version
-// pass in an array of type Data and the size of the array
+// pass in an array of type Data and rows and cols
 bool fill_data_array(Data **array, int rows, int cols){
     for(int i=0; i<rows; i++){
         // fill with ids 10,20,etc. and a generic string
@@ -45,7 +45,7 @@ bool fill_data_array(Data **array, int rows, int cols){
     return true;
 }
 
-//pass in an array of type Data and the size of the array
+//print the 2d array
 void display_data_array(Data **array, int rows, int cols){
     for(int i=0; i<rows; i++){
         for (int j = 0; j < cols; j++) {

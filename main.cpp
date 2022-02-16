@@ -109,7 +109,7 @@ int main() {
     /***********************************************
      * create a 2D array of Data Structs Dynamiclly
      ***********************************************/
-    // make a pointer to a pointer to an int
+    // make a pointer to a pointer
     Data **myDataArray;
     // allocate the rows
     myDataArray = new Data*[ROWS];
