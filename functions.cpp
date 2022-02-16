@@ -34,23 +34,23 @@ bool change_data(Data *data_struct){
 
 // 2d array version
 // pass in an array of type Data and the size of the array
-//bool fill_data_array(Data **array, int rows, int cols){
-//    for(int i=0; i<rows; i++){
-//        // fill with ids 10,20,etc. and a generic string
-//        for (int j = 0; j < cols; j++) {
-//            array[i]->id = (i+1)*10;
-//            array[i]->data =  "some string " + std::to_string(i+1);
-//        }
-//    }
-//    return true;
-//}
-//
-////pass in an array of type Data and the size of the array
-//void display_data_array(Data **array, int rows, int cols){
-//    for(int i=0; i<rows; i++){
-//        for (int j = 0; j < cols; j++) {
-//            cout << array[i]->id << ": " << array[i]->data << endl;
-//        }
-//    }
-//    cout << endl;
-//}
+bool fill_data_array(Data **array, int rows, int cols){
+    for(int i=0; i<rows; i++){
+        // fill with ids 10,20,etc. and a generic string
+        for (int j = 0; j < cols; j++) {
+            array[i]->id = (i+1)*10;
+            array[i]->data =  "some string " + std::to_string(i+1);
+        }
+    }
+    return true;
+}
+
+//pass in an array of type Data and the size of the array
+void display_data_array(Data **array, int rows, int cols){
+    for(int i=0; i<rows; i++){
+        for (int j = 0; j < cols; j++) {
+            cout << array[i]->id << ": " << array[i]->data << endl;
+        }
+    }
+    cout << endl;
+}
