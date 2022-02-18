@@ -13,7 +13,7 @@ using std::cout;
 using std::endl;
 
 #define SIZE 5
-#define ROWS 3
-#define COLS 4
+#define ROWS 4
+#define COLS 5
 
 #endif /* DEMO_MAIN_H */

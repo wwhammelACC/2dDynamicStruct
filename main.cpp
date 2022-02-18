@@ -12,21 +12,21 @@ int main() {
      ***********************************************/
 
     // make a pointer to an int
-    int *myIntArray;
-    // allocate the array
-    myIntArray = new int[SIZE];
-    // initialize it with 1,2,3,4,5
-    for (int i = 0; i < SIZE; i++) {
-        myIntArray[i] = i + 1;
-    }
-    //prove it worked
-    for (int i = 0; i < SIZE; i++) {
-        cout << myIntArray[i] << endl;
-    }
-    cout << endl;
-
-    //destroy the array, but remember the pointer is still there and usable
-    delete myIntArray;
+//    int *myIntArray;
+//    // allocate the array
+//    myIntArray = new int[SIZE];
+//    // initialize it with 1,2,3,4,5
+//    for (int i = 0; i < SIZE; i++) {
+//        myIntArray[i] = i + 1;
+//    }
+//    //prove it worked
+//    for (int i = 0; i < SIZE; i++) {
+//        cout << myIntArray[i] << endl;
+//    }
+//    cout << endl;
+//
+//    //destroy the array, but remember the pointer is still there and usable
+//    delete myIntArray;
 
     
     /***********************************************
@@ -78,15 +78,15 @@ int main() {
 //    // insert values into the parts of the struct
 //    myData.id = 1;
 //    myData.data = "Hello World";
-//
+
 //    // prove it worked
 //    cout << myData.id << ": " << myData.data << endl;
 //
 //    // pass the structure to a function that will modify it
 //    change_data(&myData);
-//
-//    // prove it worked
-//    cout << myData.id << ": " << myData.data << endl << endl;
+
+    // prove it worked
+    //cout << myData.id << ": " << myData.data << endl << endl;
 
     // dynamically create an array of Data structs
 
